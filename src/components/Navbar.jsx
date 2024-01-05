@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className='flex items-center  justify-between z-[100] w-full absolute p-4'>
       <Link to='/'>
         <h1 className='text-blue-300 text-4xl font-bold cursor-pointer'>
-          GAYATHRIFILX
+          CHETHANFILX
         </h1>
       </Link>
       {user && user.emailVerified ? (
