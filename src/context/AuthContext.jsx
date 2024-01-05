@@ -19,12 +19,12 @@ import {
 // Dummy Firebase Config (Replace with actual credentials)
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_apiKey,
-  authDomain: process.env.REACT_APP_authDomain,
-  projectId: process.env.REACT_APP_projectId,
-  storageBucket: process.env.REACT_APP_storageBucket,
-  messagingSenderId: process.env.REACT_APP_messagingSenderId,
-  appId: process.env.REACT_APP_appId
+    apiKey: "AIzaSyB6JmJC40QDPv7YhJaMIBLy4mFBYdgi1Bo",
+    authDomain: "affliate-be9d8.firebaseapp.com",
+    projectId: "affliate-be9d8",
+    storageBucket: "affliate-be9d8.appspot.com",
+    messagingSenderId: "329239552738",
+    appId: "1:329239552738:web:57dc4c99c4be8a0470b4bb"
 };
 
 const app = initializeApp(firebaseConfig);
